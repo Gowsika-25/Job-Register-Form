@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Form</title>
+    <link rel="stylesheet" href="./static resources/css/style.css">
+</head>
+<img style="margin-left: 380px; width:580px" src="./static resources/images/jobs1.jpg">
+<body>
+    <div class="container">
+        <div class="apply-box">
+            <h1>Job Application Register Form</h1>
+            <form action="" method="GET">
+                <div class="form-container">
+                    <div class="form-control">
+                        <label for="first_name">First Name</label>
+                        <input type="text" id="first_name" name="first_name" placeholder="Enter your First name" required>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" id="last_name" name="last_name" placeholder="Enter your Last name" required>
+                    </div>
+
+                     <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+                    </div>
+
+                     <div class="form-control">
+                        <label for="job-role">Job role</label>
+                        <select name="job-role" id="job-role">
+
+                              <option value="frontend">Front-end developer</option>
+                              <option value="backend">Back-end Developer</option>
+                              <option value="full stack">Full Stack Developer</option>
+                              <option value="ui designer">Ui Designer</option>
+                              <option value="flutter developer">Flutter Developer</option>
+                          </select></div>
+
+                    <div class="textarea-control">
+                        <label for="address">Address</label>
+                        <textarea name="address" id="" cols="30" rows="10" placeholder="Enter Full Address"></textarea>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city" placeholder="Enter City" required>
+                    </div>
+
+
+                    <div class="form-control">
+                        <label for="pincode">Pincode</label>
+                        <input type="number" id="pinode" name="pincode" placeholder="Enter Pincode" required>
+                    </div>
+
+                     <div class="form-control">
+                        <label for="date">DOB</label>
+                        <input type="date" id="date" name="date">
+                     </div>
+
+
+                    <div class="form-control">
+                        <label for="phone">Phone</label>
+                        <input type="number" id="phone" placeholder="Enter Phone number" required>
+                    </div><hr><hr>
+
+                    <h1 class="second">Education Details</h1><br>
+                     <div class="form-control">
+                        <label for="sslc">SSLC</label>
+                        <input type="number" id="sslc" name="sslc" placeholder="Enter 10th(%)" required>
+                    </div>
+
+                     <div class="form-control">
+                        <label for="hsc">HSC</label>
+                        <input type="number" id="hsc" name="hsc" placeholder="Enter 12th(%)" required>
+                    </div>
+
+                     <div class="form-control">
+                        <label for="diploma">Diploma</label>
+                        <input type="number" id="diploma" name="diploma" placeholder="Enter Diploma(%)">
+                    </div>
+
+                     <div class="form-control">
+                     <label for="skills">Skills</label>
+                     <select id="skills" name="skills" required>
+                <option value="graphic design">Graphic Design</option>
+                <option value="coding">Coding</option>
+                <option value="accounting">Accounting</option>
+                <option value="copyrighting">Copyrighting</option>
+                <option value="managerial skills">Managerial skills</option>
+                <option value="creativity">Creativity</option>
+                <option value="data analysis">Data Analysis</option>
+                <option value="testing">Testing</option>
+                <option value="programming">Programming</option>
+                <option value="debugging">Debugging</option>
+
+
+            </select>
+            </select>
+            </select>
+            
+        </div> <hr><hr>
+
+          <h1 class="second">Qualification</h1><br>
+
+          <div class="form-control">
+            <label for="position">Applying for Position</label>
+            <select id="position" name="position" required>
+                <option value="designer">Designer</option>
+                <option value="programmer">Programmer</option>
+                <option value="data analyst">Data Analyst</option>
+                <option value="software tester">Software Tester</option>
+                <option value="software developer">Software Developer</option>
+                <option value="Fianance">Finance</option>
+                <option value="marketing">Marketing</option>
+                <option value="academia">Academia</option>
+                <option value="health care">Health Care</option>
+
+            </select>
+            </select>
+            </select>
+        </div>
+
+            <div class="form-control">
+            <label for="experience">Years of Experience:</label>
+            <input type="number" id="experience" name="experience" min="0" required>
+        </div>
+
+             <div class="form-control">
+            <label for="cv">Upload CV</label>
+            <input type="file" id="cv" name="cv" accept=".pdf, .doc, .docx" required>
+        </div>
+
+
+
+                    <div class="button-container">
+                        <button type="submit">Register</button>
+                   </div>
+            </form>
+         </div>
+    </div>
+    
+    
+</body>
+</html>
